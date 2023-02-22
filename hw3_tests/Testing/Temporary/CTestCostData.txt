@@ -1,0 +1,86 @@
+Pivot.Empty 1 1.73665
+Pivot.Size1SmallEmpty 1 1.59295
+Pivot.Size1LargeEmpty 1 1.61566
+Pivot.Size2SmallLarge 1 1.57875
+Pivot.Size2LargeSmall 1 1.59297
+Pivot.Size3LargeSmallLarge 1 1.59815
+Pivot.Size3SmallLargeSmall 1 1.57229
+Pivot.Size3LargeLargeSmall 1 1.62067
+Pivot.Size6SmallThenLarge 1 1.51927
+Pivot.Size6LargeThenSmall 1 1.45623
+Pivot.Nominal 1 1.55926
+Pivot.SameValues 1 1.77051
+Pivot.NoCopySameNodeCheck 1 1.57454
+Filter.EmptyList 1 1.52815
+Filter.Size1_F 0 0
+Filter.Size1_nF 1 1.47296
+Filter.Size2_F_nF 0 0
+Filter.Size2_nF_F 0 0
+Filter.Size3_nF_F_nF 0 0
+Filter.Size3_F_nF_F 0 0
+Filter.SameNodeCheck 0 0
+Filter.MultipleCalls 0 0
+Filter.CompareWithLlrec 0 0
+Stack.BasicString 0 0
+Stack.RandomInt 0 0
+HeapTest.ConstructionDestruction 0 0
+HeapTest.InitiallyEmpty 0 0
+HeapTest.EmptyTopException 0 0
+HeapTest.EmptyPopException 0 0
+HeapTest.SingleItemNonempty 0 0
+HeapTest.SingleItemPush 0 0
+HeapTest.SingleItemPushPop 0 0
+HeapTest.TwoElementPush_LowPriFirst 0 0
+HeapTest.TwoElementPush_HighPriFirst 0 0
+HeapTest.Duplicates 0 0
+HeapTest.NegativeElements 0 0
+HeapTest.ThreeElementPush_0_5_10 0 0
+HeapTest.ThreeElementPush_0_10_5 0 0
+HeapTest.ThreeElementPush_5_0_10 0 0
+HeapTest.ThreeElementPush_5_10_0 0 0
+HeapTest.ThreeElementPush_10_0_5 0 0
+HeapTest.ThreeElementPush_10_5_0 0 0
+HeapTest.GreaterComparator 0 0
+HeapTest.StringStorage 0 0
+HeapTest.FiveElementPush_TrinaryHeap 0 0
+HeapTest.SixElementPush_QuaternaryHeap 0 0
+HeapStress.50x50RandomElements_BinaryHeap 0 0
+HeapStress.50x50RandomElements_QuaternaryHeap 0 0
+HeapStress.50x50RandomElements_DodecenaryHeap 0 0
+HeapStress.2x2000RandomElements_Binary 0 0
+---
+Filter.Size1_F
+Filter.Size2_F_nF
+Filter.Size2_nF_F
+Filter.Size3_nF_F_nF
+Filter.Size3_F_nF_F
+Filter.SameNodeCheck
+Filter.MultipleCalls
+Filter.CompareWithLlrec
+Stack.BasicString
+Stack.RandomInt
+HeapTest.ConstructionDestruction
+HeapTest.InitiallyEmpty
+HeapTest.EmptyTopException
+HeapTest.EmptyPopException
+HeapTest.SingleItemNonempty
+HeapTest.SingleItemPush
+HeapTest.SingleItemPushPop
+HeapTest.TwoElementPush_LowPriFirst
+HeapTest.TwoElementPush_HighPriFirst
+HeapTest.Duplicates
+HeapTest.NegativeElements
+HeapTest.ThreeElementPush_0_5_10
+HeapTest.ThreeElementPush_0_10_5
+HeapTest.ThreeElementPush_5_0_10
+HeapTest.ThreeElementPush_5_10_0
+HeapTest.ThreeElementPush_10_0_5
+HeapTest.ThreeElementPush_10_5_0
+HeapTest.GreaterComparator
+HeapTest.StringStorage
+HeapTest.FiveElementPush_TrinaryHeap
+HeapTest.SixElementPush_QuaternaryHeap
+HeapStress.50x50RandomElements_BinaryHeap
+HeapStress.50x50RandomElements_QuaternaryHeap
+HeapStress.50x50RandomElements_DodecenaryHeap
+HeapStress.2x2000RandomElements_Binary

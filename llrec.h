@@ -83,6 +83,23 @@ Node* llfilter(Node* head, Comp pred)
     //*********************************************
     // Provide your implementation below
     //*********************************************
+    // 1 2 3 4
+
+    if(head==NULL){
+        return NULL;
+    }
+    if(pred(head->val)){
+        Node* n=head->next;
+        head=NULL;
+        return llfilter(n, pred);
+    }
+    else{
+        Node* n=head->next;// 3 4
+        Node* newL=head; // 2 3 4
+        head=NULL;
+        newL->next = llfilter(n, pred);
+        return newL; 
+    }
 
 
 }

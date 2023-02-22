@@ -1,0 +1,1834 @@
+Start testing: Feb 17 23:21 UTC
+----------------------------------------------------------
+1/25 Testing: HeapTest.ConstructionDestruction
+1/25 Test: HeapTest.ConstructionDestruction
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.ConstructionDestruction"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.ConstructionDestruction" start time: Feb 17 23:21 UTC
+Output:
+----------------------------------------------------------
+==2165== Memcheck, a memory error detector
+==2165== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2165== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==2165== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.ConstructionDestruction
+==2165== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.ConstructionDestruction
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.ConstructionDestruction
+[       OK ] HeapTest.ConstructionDestruction (19 ms)
+[----------] 1 test from HeapTest (28 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (78 ms total)
+[  PASSED  ] 1 test.
+==2165== 
+==2165== HEAP SUMMARY:
+==2165==     in use at exit: 0 bytes in 0 blocks
+==2165==   total heap usage: 468 allocs, 468 frees, 135,793 bytes allocated
+==2165== 
+==2165== All heap blocks were freed -- no leaks are possible
+==2165== 
+==2165== For counts of detected and suppressed errors, rerun with: -v
+==2165== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.43 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.ConstructionDestruction" end time: Feb 17 23:21 UTC
+"HeapTest.ConstructionDestruction" time elapsed: 00:00:01
+----------------------------------------------------------
+
+2/25 Testing: HeapTest.InitiallyEmpty
+2/25 Test: HeapTest.InitiallyEmpty
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.InitiallyEmpty"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.InitiallyEmpty" start time: Feb 17 23:21 UTC
+Output:
+----------------------------------------------------------
+==2166== Memcheck, a memory error detector
+==2166== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2166== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==2166== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.InitiallyEmpty
+==2166== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.InitiallyEmpty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.InitiallyEmpty
+[       OK ] HeapTest.InitiallyEmpty (19 ms)
+[----------] 1 test from HeapTest (28 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (78 ms total)
+[  PASSED  ] 1 test.
+==2166== 
+==2166== HEAP SUMMARY:
+==2166==     in use at exit: 0 bytes in 0 blocks
+==2166==   total heap usage: 468 allocs, 468 frees, 135,697 bytes allocated
+==2166== 
+==2166== All heap blocks were freed -- no leaks are possible
+==2166== 
+==2166== For counts of detected and suppressed errors, rerun with: -v
+==2166== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.43 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.InitiallyEmpty" end time: Feb 17 23:21 UTC
+"HeapTest.InitiallyEmpty" time elapsed: 00:00:01
+----------------------------------------------------------
+
+3/25 Testing: HeapTest.EmptyTopException
+3/25 Test: HeapTest.EmptyTopException
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.EmptyTopException"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.EmptyTopException" start time: Feb 17 23:21 UTC
+Output:
+----------------------------------------------------------
+==2167== Memcheck, a memory error detector
+==2167== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2167== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==2167== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.EmptyTopException
+==2167== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.EmptyTopException
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.EmptyTopException
+[       OK ] HeapTest.EmptyTopException (58 ms)
+[----------] 1 test from HeapTest (67 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (118 ms total)
+[  PASSED  ] 1 test.
+==2167== 
+==2167== HEAP SUMMARY:
+==2167==     in use at exit: 0 bytes in 0 blocks
+==2167==   total heap usage: 470 allocs, 470 frees, 135,906 bytes allocated
+==2167== 
+==2167== All heap blocks were freed -- no leaks are possible
+==2167== 
+==2167== For counts of detected and suppressed errors, rerun with: -v
+==2167== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.47 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.EmptyTopException" end time: Feb 17 23:21 UTC
+"HeapTest.EmptyTopException" time elapsed: 00:00:01
+----------------------------------------------------------
+
+4/25 Testing: HeapTest.EmptyPopException
+4/25 Test: HeapTest.EmptyPopException
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.EmptyPopException"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.EmptyPopException" start time: Feb 17 23:21 UTC
+Output:
+----------------------------------------------------------
+==2168== Memcheck, a memory error detector
+==2168== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2168== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==2168== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.EmptyPopException
+==2168== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.EmptyPopException
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.EmptyPopException
+[       OK ] HeapTest.EmptyPopException (63 ms)
+[----------] 1 test from HeapTest (74 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (127 ms total)
+[  PASSED  ] 1 test.
+==2168== 
+==2168== HEAP SUMMARY:
+==2168==     in use at exit: 0 bytes in 0 blocks
+==2168==   total heap usage: 470 allocs, 470 frees, 135,907 bytes allocated
+==2168== 
+==2168== All heap blocks were freed -- no leaks are possible
+==2168== 
+==2168== For counts of detected and suppressed errors, rerun with: -v
+==2168== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.57 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.EmptyPopException" end time: Feb 17 23:21 UTC
+"HeapTest.EmptyPopException" time elapsed: 00:00:01
+----------------------------------------------------------
+
+5/25 Testing: HeapTest.SingleItemNonempty
+5/25 Test: HeapTest.SingleItemNonempty
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.SingleItemNonempty"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.SingleItemNonempty" start time: Feb 17 23:21 UTC
+Output:
+----------------------------------------------------------
+==2169== Memcheck, a memory error detector
+==2169== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2169== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==2169== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.SingleItemNonempty
+==2169== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.SingleItemNonempty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.SingleItemNonempty
+[       OK ] HeapTest.SingleItemNonempty (31 ms)
+[----------] 1 test from HeapTest (41 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (100 ms total)
+[  PASSED  ] 1 test.
+==2169== 
+==2169== HEAP SUMMARY:
+==2169==     in use at exit: 0 bytes in 0 blocks
+==2169==   total heap usage: 469 allocs, 469 frees, 135,741 bytes allocated
+==2169== 
+==2169== All heap blocks were freed -- no leaks are possible
+==2169== 
+==2169== For counts of detected and suppressed errors, rerun with: -v
+==2169== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.73 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.SingleItemNonempty" end time: Feb 17 23:21 UTC
+"HeapTest.SingleItemNonempty" time elapsed: 00:00:01
+----------------------------------------------------------
+
+6/25 Testing: HeapTest.SingleItemPush
+6/25 Test: HeapTest.SingleItemPush
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.SingleItemPush"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.SingleItemPush" start time: Feb 17 23:21 UTC
+Output:
+----------------------------------------------------------
+==2170== Memcheck, a memory error detector
+==2170== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2170== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==2170== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.SingleItemPush
+==2170== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.SingleItemPush
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.SingleItemPush
+[       OK ] HeapTest.SingleItemPush (31 ms)
+[----------] 1 test from HeapTest (42 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (105 ms total)
+[  PASSED  ] 1 test.
+==2170== 
+==2170== HEAP SUMMARY:
+==2170==     in use at exit: 0 bytes in 0 blocks
+==2170==   total heap usage: 469 allocs, 469 frees, 135,701 bytes allocated
+==2170== 
+==2170== All heap blocks were freed -- no leaks are possible
+==2170== 
+==2170== For counts of detected and suppressed errors, rerun with: -v
+==2170== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.69 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.SingleItemPush" end time: Feb 17 23:22 UTC
+"HeapTest.SingleItemPush" time elapsed: 00:00:01
+----------------------------------------------------------
+
+7/25 Testing: HeapTest.SingleItemPushPop
+7/25 Test: HeapTest.SingleItemPushPop
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.SingleItemPushPop"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.SingleItemPushPop" start time: Feb 17 23:22 UTC
+Output:
+----------------------------------------------------------
+==2171== Memcheck, a memory error detector
+==2171== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2171== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==2171== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.SingleItemPushPop
+==2171== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.SingleItemPushPop
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.SingleItemPushPop
+[       OK ] HeapTest.SingleItemPushPop (33 ms)
+[----------] 1 test from HeapTest (43 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (104 ms total)
+[  PASSED  ] 1 test.
+==2171== 
+==2171== HEAP SUMMARY:
+==2171==     in use at exit: 0 bytes in 0 blocks
+==2171==   total heap usage: 469 allocs, 469 frees, 135,731 bytes allocated
+==2171== 
+==2171== All heap blocks were freed -- no leaks are possible
+==2171== 
+==2171== For counts of detected and suppressed errors, rerun with: -v
+==2171== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.73 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.SingleItemPushPop" end time: Feb 17 23:22 UTC
+"HeapTest.SingleItemPushPop" time elapsed: 00:00:01
+----------------------------------------------------------
+
+8/25 Testing: HeapTest.TwoElementPush_LowPriFirst
+8/25 Test: HeapTest.TwoElementPush_LowPriFirst
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.TwoElementPush_LowPriFirst"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.TwoElementPush_LowPriFirst" start time: Feb 17 23:22 UTC
+Output:
+----------------------------------------------------------
+==2173== Memcheck, a memory error detector
+==2173== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2173== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==2173== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.TwoElementPush_LowPriFirst
+==2173== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.TwoElementPush_LowPriFirst
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.TwoElementPush_LowPriFirst
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:136: Failure
+Expected equality of these values:
+  10
+  heap.top()
+    Which is: 3
+[  FAILED  ] HeapTest.TwoElementPush_LowPriFirst (97 ms)
+[----------] 1 test from HeapTest (110 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (168 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] HeapTest.TwoElementPush_LowPriFirst
+
+ 1 FAILED TEST
+==2173== 
+==2173== HEAP SUMMARY:
+==2173==     in use at exit: 0 bytes in 0 blocks
+==2173==   total heap usage: 510 allocs, 510 frees, 142,956 bytes allocated
+==2173== 
+==2173== All heap blocks were freed -- no leaks are possible
+==2173== 
+==2173== For counts of detected and suppressed errors, rerun with: -v
+==2173== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.78 sec
+----------------------------------------------------------
+Test Failed.
+"HeapTest.TwoElementPush_LowPriFirst" end time: Feb 17 23:22 UTC
+"HeapTest.TwoElementPush_LowPriFirst" time elapsed: 00:00:01
+----------------------------------------------------------
+
+9/25 Testing: HeapTest.TwoElementPush_HighPriFirst
+9/25 Test: HeapTest.TwoElementPush_HighPriFirst
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.TwoElementPush_HighPriFirst"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.TwoElementPush_HighPriFirst" start time: Feb 17 23:22 UTC
+Output:
+----------------------------------------------------------
+==2174== Memcheck, a memory error detector
+==2174== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2174== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==2174== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.TwoElementPush_HighPriFirst
+==2174== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.TwoElementPush_HighPriFirst
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.TwoElementPush_HighPriFirst
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:148: Failure
+Expected equality of these values:
+  50
+  heap.top()
+    Which is: 49
+[  FAILED  ] HeapTest.TwoElementPush_HighPriFirst (86 ms)
+[----------] 1 test from HeapTest (98 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (151 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] HeapTest.TwoElementPush_HighPriFirst
+
+ 1 FAILED TEST
+==2174== 
+==2174== HEAP SUMMARY:
+==2174==     in use at exit: 0 bytes in 0 blocks
+==2174==   total heap usage: 510 allocs, 510 frees, 142,989 bytes allocated
+==2174== 
+==2174== All heap blocks were freed -- no leaks are possible
+==2174== 
+==2174== For counts of detected and suppressed errors, rerun with: -v
+==2174== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.71 sec
+----------------------------------------------------------
+Test Failed.
+"HeapTest.TwoElementPush_HighPriFirst" end time: Feb 17 23:22 UTC
+"HeapTest.TwoElementPush_HighPriFirst" time elapsed: 00:00:01
+----------------------------------------------------------
+
+10/25 Testing: HeapTest.Duplicates
+10/25 Test: HeapTest.Duplicates
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.Duplicates"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.Duplicates" start time: Feb 17 23:22 UTC
+Output:
+----------------------------------------------------------
+==2175== Memcheck, a memory error detector
+==2175== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2175== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==2175== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.Duplicates
+==2175== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.Duplicates
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.Duplicates
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:163: Failure
+Expected equality of these values:
+  20
+  heap.top()
+    Which is: 9
+[  FAILED  ] HeapTest.Duplicates (91 ms)
+[----------] 1 test from HeapTest (103 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (156 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] HeapTest.Duplicates
+
+ 1 FAILED TEST
+==2175== 
+==2175== HEAP SUMMARY:
+==2175==     in use at exit: 0 bytes in 0 blocks
+==2175==   total heap usage: 511 allocs, 511 frees, 142,797 bytes allocated
+==2175== 
+==2175== All heap blocks were freed -- no leaks are possible
+==2175== 
+==2175== For counts of detected and suppressed errors, rerun with: -v
+==2175== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.63 sec
+----------------------------------------------------------
+Test Failed.
+"HeapTest.Duplicates" end time: Feb 17 23:22 UTC
+"HeapTest.Duplicates" time elapsed: 00:00:01
+----------------------------------------------------------
+
+11/25 Testing: HeapTest.NegativeElements
+11/25 Test: HeapTest.NegativeElements
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.NegativeElements"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.NegativeElements" start time: Feb 17 23:22 UTC
+Output:
+----------------------------------------------------------
+==2176== Memcheck, a memory error detector
+==2176== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2176== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==2176== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.NegativeElements
+==2176== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.NegativeElements
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.NegativeElements
+[       OK ] HeapTest.NegativeElements (30 ms)
+[----------] 1 test from HeapTest (39 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (91 ms total)
+[  PASSED  ] 1 test.
+==2176== 
+==2176== HEAP SUMMARY:
+==2176==     in use at exit: 0 bytes in 0 blocks
+==2176==   total heap usage: 470 allocs, 470 frees, 135,729 bytes allocated
+==2176== 
+==2176== All heap blocks were freed -- no leaks are possible
+==2176== 
+==2176== For counts of detected and suppressed errors, rerun with: -v
+==2176== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.59 sec
+----------------------------------------------------------
+Test Passed.
+"HeapTest.NegativeElements" end time: Feb 17 23:22 UTC
+"HeapTest.NegativeElements" time elapsed: 00:00:01
+----------------------------------------------------------
+
+12/25 Testing: HeapTest.ThreeElementPush_0_5_10
+12/25 Test: HeapTest.ThreeElementPush_0_5_10
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.ThreeElementPush_0_5_10"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.ThreeElementPush_0_5_10" start time: Feb 17 23:22 UTC
+Output:
+----------------------------------------------------------
+==2177== Memcheck, a memory error detector
+==2177== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2177== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==2177== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.ThreeElementPush_0_5_10
+==2177== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.ThreeElementPush_0_5_10
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.ThreeElementPush_0_5_10
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:182: Failure
+Expected equality of these values:
+  5
+  heap.top()
+    Which is: 0
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:184: Failure
+Expected equality of these values:
+  10
+  heap.top()
+    Which is: 0
+[  FAILED  ] HeapTest.ThreeElementPush_0_5_10 (105 ms)
+[----------] 1 test from HeapTest (119 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (172 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] HeapTest.ThreeElementPush_0_5_10
+
+ 1 FAILED TEST
+==2177== 
+==2177== HEAP SUMMARY:
+==2177==     in use at exit: 0 bytes in 0 blocks
+==2177==   total heap usage: 548 allocs, 548 frees, 149,697 bytes allocated
+==2177== 
+==2177== All heap blocks were freed -- no leaks are possible
+==2177== 
+==2177== For counts of detected and suppressed errors, rerun with: -v
+==2177== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.62 sec
+----------------------------------------------------------
+Test Failed.
+"HeapTest.ThreeElementPush_0_5_10" end time: Feb 17 23:22 UTC
+"HeapTest.ThreeElementPush_0_5_10" time elapsed: 00:00:01
+----------------------------------------------------------
+
+13/25 Testing: HeapTest.ThreeElementPush_0_10_5
+13/25 Test: HeapTest.ThreeElementPush_0_10_5
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.ThreeElementPush_0_10_5"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.ThreeElementPush_0_10_5" start time: Feb 17 23:22 UTC
+Output:
+----------------------------------------------------------
+==2178== Memcheck, a memory error detector
+==2178== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2178== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==2178== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.ThreeElementPush_0_10_5
+==2178== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.ThreeElementPush_0_10_5
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.ThreeElementPush_0_10_5
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:195: Failure
+Expected equality of these values:
+  5
+  heap.top()
+    Which is: 0
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:197: Failure
+Expected equality of these values:
+  10
+  heap.top()
+    Which is: 0
+[  FAILED  ] HeapTest.ThreeElementPush_0_10_5 (115 ms)
+[----------] 1 test from HeapTest (129 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (190 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] HeapTest.ThreeElementPush_0_10_5
+
+ 1 FAILED TEST
+==2178== 
+==2178== HEAP SUMMARY:
+==2178==     in use at exit: 0 bytes in 0 blocks
+==2178==   total heap usage: 548 allocs, 548 frees, 149,697 bytes allocated
+==2178== 
+==2178== All heap blocks were freed -- no leaks are possible
+==2178== 
+==2178== For counts of detected and suppressed errors, rerun with: -v
+==2178== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.76 sec
+----------------------------------------------------------
+Test Failed.
+"HeapTest.ThreeElementPush_0_10_5" end time: Feb 17 23:22 UTC
+"HeapTest.ThreeElementPush_0_10_5" time elapsed: 00:00:01
+----------------------------------------------------------
+
+14/25 Testing: HeapTest.ThreeElementPush_5_0_10
+14/25 Test: HeapTest.ThreeElementPush_5_0_10
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.ThreeElementPush_5_0_10"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.ThreeElementPush_5_0_10" start time: Feb 17 23:22 UTC
+Output:
+----------------------------------------------------------
+==2179== Memcheck, a memory error detector
+==2179== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2179== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==2179== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.ThreeElementPush_5_0_10
+==2179== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.ThreeElementPush_5_0_10
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.ThreeElementPush_5_0_10
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:208: Failure
+Expected equality of these values:
+  5
+  heap.top()
+    Which is: 0
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:210: Failure
+Expected equality of these values:
+  10
+  heap.top()
+    Which is: 0
+[  FAILED  ] HeapTest.ThreeElementPush_5_0_10 (98 ms)
+[----------] 1 test from HeapTest (110 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (165 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] HeapTest.ThreeElementPush_5_0_10
+
+ 1 FAILED TEST
+==2179== 
+==2179== HEAP SUMMARY:
+==2179==     in use at exit: 0 bytes in 0 blocks
+==2179==   total heap usage: 548 allocs, 548 frees, 149,697 bytes allocated
+==2179== 
+==2179== All heap blocks were freed -- no leaks are possible
+==2179== 
+==2179== For counts of detected and suppressed errors, rerun with: -v
+==2179== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.67 sec
+----------------------------------------------------------
+Test Failed.
+"HeapTest.ThreeElementPush_5_0_10" end time: Feb 17 23:22 UTC
+"HeapTest.ThreeElementPush_5_0_10" time elapsed: 00:00:01
+----------------------------------------------------------
+
+15/25 Testing: HeapTest.ThreeElementPush_5_10_0
+15/25 Test: HeapTest.ThreeElementPush_5_10_0
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.ThreeElementPush_5_10_0"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.ThreeElementPush_5_10_0" start time: Feb 17 23:22 UTC
+Output:
+----------------------------------------------------------
+==2180== Memcheck, a memory error detector
+==2180== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2180== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==2180== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.ThreeElementPush_5_10_0
+==2180== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.ThreeElementPush_5_10_0
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.ThreeElementPush_5_10_0
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:221: Failure
+Expected equality of these values:
+  5
+  heap.top()
+    Which is: 0
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:223: Failure
+Expected equality of these values:
+  10
+  heap.top()
+    Which is: 0
+[  FAILED  ] HeapTest.ThreeElementPush_5_10_0 (97 ms)
+[----------] 1 test from HeapTest (108 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (159 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] HeapTest.ThreeElementPush_5_10_0
+
+ 1 FAILED TEST
+==2180== 
+==2180== HEAP SUMMARY:
+==2180==     in use at exit: 0 bytes in 0 blocks
+==2180==   total heap usage: 548 allocs, 548 frees, 149,697 bytes allocated
+==2180== 
+==2180== All heap blocks were freed -- no leaks are possible
+==2180== 
+==2180== For counts of detected and suppressed errors, rerun with: -v
+==2180== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.61 sec
+----------------------------------------------------------
+Test Failed.
+"HeapTest.ThreeElementPush_5_10_0" end time: Feb 17 23:22 UTC
+"HeapTest.ThreeElementPush_5_10_0" time elapsed: 00:00:01
+----------------------------------------------------------
+
+16/25 Testing: HeapTest.ThreeElementPush_10_0_5
+16/25 Test: HeapTest.ThreeElementPush_10_0_5
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.ThreeElementPush_10_0_5"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.ThreeElementPush_10_0_5" start time: Feb 17 23:22 UTC
+Output:
+----------------------------------------------------------
+==2181== Memcheck, a memory error detector
+==2181== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2181== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==2181== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.ThreeElementPush_10_0_5
+==2181== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.ThreeElementPush_10_0_5
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.ThreeElementPush_10_0_5
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:234: Failure
+Expected equality of these values:
+  5
+  heap.top()
+    Which is: 0
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:236: Failure
+Expected equality of these values:
+  10
+  heap.top()
+    Which is: 0
+[  FAILED  ] HeapTest.ThreeElementPush_10_0_5 (94 ms)
+[----------] 1 test from HeapTest (105 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (155 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] HeapTest.ThreeElementPush_10_0_5
+
+ 1 FAILED TEST
+==2181== 
+==2181== HEAP SUMMARY:
+==2181==     in use at exit: 0 bytes in 0 blocks
+==2181==   total heap usage: 548 allocs, 548 frees, 149,697 bytes allocated
+==2181== 
+==2181== All heap blocks were freed -- no leaks are possible
+==2181== 
+==2181== For counts of detected and suppressed errors, rerun with: -v
+==2181== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.55 sec
+----------------------------------------------------------
+Test Failed.
+"HeapTest.ThreeElementPush_10_0_5" end time: Feb 17 23:22 UTC
+"HeapTest.ThreeElementPush_10_0_5" time elapsed: 00:00:01
+----------------------------------------------------------
+
+17/25 Testing: HeapTest.ThreeElementPush_10_5_0
+17/25 Test: HeapTest.ThreeElementPush_10_5_0
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.ThreeElementPush_10_5_0"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.ThreeElementPush_10_5_0" start time: Feb 17 23:22 UTC
+Output:
+----------------------------------------------------------
+==2182== Memcheck, a memory error detector
+==2182== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2182== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==2182== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.ThreeElementPush_10_5_0
+==2182== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.ThreeElementPush_10_5_0
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.ThreeElementPush_10_5_0
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:247: Failure
+Expected equality of these values:
+  5
+  heap.top()
+    Which is: 0
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:249: Failure
+Expected equality of these values:
+  10
+  heap.top()
+    Which is: 0
+[  FAILED  ] HeapTest.ThreeElementPush_10_5_0 (112 ms)
+[----------] 1 test from HeapTest (125 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (185 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] HeapTest.ThreeElementPush_10_5_0
+
+ 1 FAILED TEST
+==2182== 
+==2182== HEAP SUMMARY:
+==2182==     in use at exit: 0 bytes in 0 blocks
+==2182==   total heap usage: 548 allocs, 548 frees, 149,697 bytes allocated
+==2182== 
+==2182== All heap blocks were freed -- no leaks are possible
+==2182== 
+==2182== For counts of detected and suppressed errors, rerun with: -v
+==2182== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.62 sec
+----------------------------------------------------------
+Test Failed.
+"HeapTest.ThreeElementPush_10_5_0" end time: Feb 17 23:22 UTC
+"HeapTest.ThreeElementPush_10_5_0" time elapsed: 00:00:01
+----------------------------------------------------------
+
+18/25 Testing: HeapTest.GreaterComparator
+18/25 Test: HeapTest.GreaterComparator
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.GreaterComparator"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.GreaterComparator" start time: Feb 17 23:22 UTC
+Output:
+----------------------------------------------------------
+==2183== Memcheck, a memory error detector
+==2183== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2183== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==2183== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.GreaterComparator
+==2183== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.GreaterComparator
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.GreaterComparator
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:264: Failure
+Expected equality of these values:
+  100
+  heap.top()
+    Which is: 1000
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:266: Failure
+Expected equality of these values:
+  10
+  heap.top()
+    Which is: 1000
+[  FAILED  ] HeapTest.GreaterComparator (113 ms)
+[----------] 1 test from HeapTest (126 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (185 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] HeapTest.GreaterComparator
+
+ 1 FAILED TEST
+==2183== 
+==2183== HEAP SUMMARY:
+==2183==     in use at exit: 0 bytes in 0 blocks
+==2183==   total heap usage: 548 allocs, 548 frees, 149,791 bytes allocated
+==2183== 
+==2183== All heap blocks were freed -- no leaks are possible
+==2183== 
+==2183== For counts of detected and suppressed errors, rerun with: -v
+==2183== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.64 sec
+----------------------------------------------------------
+Test Failed.
+"HeapTest.GreaterComparator" end time: Feb 17 23:22 UTC
+"HeapTest.GreaterComparator" time elapsed: 00:00:01
+----------------------------------------------------------
+
+19/25 Testing: HeapTest.StringStorage
+19/25 Test: HeapTest.StringStorage
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.StringStorage"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.StringStorage" start time: Feb 17 23:22 UTC
+Output:
+----------------------------------------------------------
+==2184== Memcheck, a memory error detector
+==2184== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2184== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==2184== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.StringStorage
+==2184== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.StringStorage
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.StringStorage
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:278: Failure
+Expected equality of these values:
+  "bloh"
+  stringHeap.top()
+    Which is: "blah"
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:280: Failure
+Expected equality of these values:
+  "bluh"
+  stringHeap.top()
+    Which is: "blah"
+[  FAILED  ] HeapTest.StringStorage (101 ms)
+[----------] 1 test from HeapTest (113 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (166 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] HeapTest.StringStorage
+
+ 1 FAILED TEST
+==2184== 
+==2184== HEAP SUMMARY:
+==2184==     in use at exit: 0 bytes in 0 blocks
+==2184==   total heap usage: 548 allocs, 548 frees, 150,407 bytes allocated
+==2184== 
+==2184== All heap blocks were freed -- no leaks are possible
+==2184== 
+==2184== For counts of detected and suppressed errors, rerun with: -v
+==2184== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.79 sec
+----------------------------------------------------------
+Test Failed.
+"HeapTest.StringStorage" end time: Feb 17 23:22 UTC
+"HeapTest.StringStorage" time elapsed: 00:00:01
+----------------------------------------------------------
+
+20/25 Testing: HeapTest.FiveElementPush_TrinaryHeap
+20/25 Test: HeapTest.FiveElementPush_TrinaryHeap
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.FiveElementPush_TrinaryHeap"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.FiveElementPush_TrinaryHeap" start time: Feb 17 23:22 UTC
+Output:
+----------------------------------------------------------
+==2185== Memcheck, a memory error detector
+==2185== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2185== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==2185== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.FiveElementPush_TrinaryHeap
+==2185== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.FiveElementPush_TrinaryHeap
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.FiveElementPush_TrinaryHeap
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:296: Failure
+Expected equality of these values:
+  10
+  heap.top()
+    Which is: 5
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:298: Failure
+Expected equality of these values:
+  15
+  heap.top()
+    Which is: 5
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:300: Failure
+Expected equality of these values:
+  20
+  heap.top()
+    Which is: 5
+[  FAILED  ] HeapTest.FiveElementPush_TrinaryHeap (96 ms)
+[----------] 1 test from HeapTest (108 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (158 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] HeapTest.FiveElementPush_TrinaryHeap
+
+ 1 FAILED TEST
+==2185== 
+==2185== HEAP SUMMARY:
+==2185==     in use at exit: 0 bytes in 0 blocks
+==2185==   total heap usage: 586 allocs, 586 frees, 156,809 bytes allocated
+==2185== 
+==2185== All heap blocks were freed -- no leaks are possible
+==2185== 
+==2185== For counts of detected and suppressed errors, rerun with: -v
+==2185== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.60 sec
+----------------------------------------------------------
+Test Failed.
+"HeapTest.FiveElementPush_TrinaryHeap" end time: Feb 17 23:22 UTC
+"HeapTest.FiveElementPush_TrinaryHeap" time elapsed: 00:00:01
+----------------------------------------------------------
+
+21/25 Testing: HeapTest.SixElementPush_QuaternaryHeap
+21/25 Test: HeapTest.SixElementPush_QuaternaryHeap
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapTest.SixElementPush_QuaternaryHeap"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapTest.SixElementPush_QuaternaryHeap" start time: Feb 17 23:22 UTC
+Output:
+----------------------------------------------------------
+==2186== Memcheck, a memory error detector
+==2186== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2186== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==2186== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapTest.SixElementPush_QuaternaryHeap
+==2186== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapTest.SixElementPush_QuaternaryHeap
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapTest
+[ RUN      ] HeapTest.SixElementPush_QuaternaryHeap
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:317: Failure
+Expected equality of these values:
+  10
+  heap.top()
+    Which is: 5
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:319: Failure
+Expected equality of these values:
+  15
+  heap.top()
+    Which is: 5
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:321: Failure
+Expected equality of these values:
+  20
+  heap.top()
+    Which is: 5
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:323: Failure
+Expected equality of these values:
+  25
+  heap.top()
+    Which is: 5
+[  FAILED  ] HeapTest.SixElementPush_QuaternaryHeap (100 ms)
+[----------] 1 test from HeapTest (112 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (162 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] HeapTest.SixElementPush_QuaternaryHeap
+
+ 1 FAILED TEST
+==2186== 
+==2186== HEAP SUMMARY:
+==2186==     in use at exit: 0 bytes in 0 blocks
+==2186==   total heap usage: 622 allocs, 622 frees, 163,395 bytes allocated
+==2186== 
+==2186== All heap blocks were freed -- no leaks are possible
+==2186== 
+==2186== For counts of detected and suppressed errors, rerun with: -v
+==2186== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.65 sec
+----------------------------------------------------------
+Test Failed.
+"HeapTest.SixElementPush_QuaternaryHeap" end time: Feb 17 23:22 UTC
+"HeapTest.SixElementPush_QuaternaryHeap" time elapsed: 00:00:01
+----------------------------------------------------------
+
+22/25 Testing: HeapStress.50x50RandomElements_BinaryHeap
+22/25 Test: HeapStress.50x50RandomElements_BinaryHeap
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapStress.50x50RandomElements_BinaryHeap"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapStress.50x50RandomElements_BinaryHeap" start time: Feb 17 23:22 UTC
+Output:
+----------------------------------------------------------
+==2187== Memcheck, a memory error detector
+==2187== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2187== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==2187== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapStress.50x50RandomElements_BinaryHeap
+==2187== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapStress.50x50RandomElements_BinaryHeap
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapStress
+[ RUN      ] HeapStress.50x50RandomElements_BinaryHeap
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 47, expected 41)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 3 elements!  Was 11, expected 12)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 18, expected 26)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 20, expected 5)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 31, expected 43)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 3 elements!  Was 40, expected 52)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 3 elements!  Was 6, expected 10)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 3 elements!  Was 26, expected 34)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 32, expected 18)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 103, expected 32)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 22, expected 28)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 103, expected 9)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 59, expected 13)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 37, expected 7)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 3 elements!  Was 15, expected 49)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 56, expected 20)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 3, expected 7)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 8, expected 18)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 4 elements!  Was 44, expected 53)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 4 elements!  Was 23, expected 25)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 20, expected 4)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 12, expected 15)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 4, expected 13)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 41, expected 39)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 19, expected 25)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 17, expected 18)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 50, expected 31)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 20, expected 14)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 3 elements!  Was 17, expected 18)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 66, expected 85)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 146, expected 75)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 16, expected 20)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 14, expected 19)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 30, expected 42)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 2, expected 27)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 29, expected 35)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 68, expected 49)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 3 elements!  Was 22, expected 27)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 4, expected 7)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 9, expected 21)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 3 elements!  Was 10, expected 11)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 2, expected 31)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 4, expected 5)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 36, expected 14)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 9, expected 11)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 3 elements!  Was 20, expected 27)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 34, expected 38)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 39, expected 50)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 18, expected 31)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:345: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 8, expected 11)
+Expected: true
+[  FAILED  ] HeapStress.50x50RandomElements_BinaryHeap (293 ms)
+[----------] 1 test from HeapStress (305 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (356 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] HeapStress.50x50RandomElements_BinaryHeap
+
+ 1 FAILED TEST
+==2187== 
+==2187== HEAP SUMMARY:
+==2187==     in use at exit: 0 bytes in 0 blocks
+==2187==   total heap usage: 3,179 allocs, 3,179 frees, 706,426 bytes allocated
+==2187== 
+==2187== All heap blocks were freed -- no leaks are possible
+==2187== 
+==2187== For counts of detected and suppressed errors, rerun with: -v
+==2187== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.72 sec
+----------------------------------------------------------
+Test Failed.
+"HeapStress.50x50RandomElements_BinaryHeap" end time: Feb 17 23:22 UTC
+"HeapStress.50x50RandomElements_BinaryHeap" time elapsed: 00:00:01
+----------------------------------------------------------
+
+23/25 Testing: HeapStress.50x50RandomElements_QuaternaryHeap
+23/25 Test: HeapStress.50x50RandomElements_QuaternaryHeap
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapStress.50x50RandomElements_QuaternaryHeap"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapStress.50x50RandomElements_QuaternaryHeap" start time: Feb 17 23:22 UTC
+Output:
+----------------------------------------------------------
+==2188== Memcheck, a memory error detector
+==2188== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2188== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==2188== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapStress.50x50RandomElements_QuaternaryHeap
+==2188== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapStress.50x50RandomElements_QuaternaryHeap
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapStress
+[ RUN      ] HeapStress.50x50RandomElements_QuaternaryHeap
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 85, expected 89)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 20, expected 28)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 26, expected 29)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 61, expected 53)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 22, expected 20)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 3 elements!  Was 21, expected 23)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 27, expected 19)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 5, expected 23)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 6, expected 8)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 19, expected 18)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 26, expected 40)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 3 elements!  Was 30, expected 44)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 3 elements!  Was 11, expected 34)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 17, expected 37)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 0, expected 1)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 3 elements!  Was 58, expected 66)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 35, expected 46)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 49, expected 55)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 3 elements!  Was 14, expected 20)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 3 elements!  Was 85, expected 97)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 7, expected 14)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 23, expected 44)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 31, expected 33)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 25, expected 13)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 8, expected 35)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 69, expected 35)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 17, expected 36)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 23, expected 25)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 7, expected 10)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 3 elements!  Was 27, expected 30)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 3 elements!  Was 18, expected 28)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 3, expected 4)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 3 elements!  Was 26, expected 51)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 32, expected 43)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 52, expected 32)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 21, expected 23)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 19, expected 34)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 71, expected 48)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 5, expected 6)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 6, expected 18)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 23, expected 51)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 11, expected 14)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 46, expected 49)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 3 elements!  Was 31, expected 35)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 6, expected 13)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 3 elements!  Was 21, expected 22)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 14, expected 44)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 29, expected 49)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 60, expected 40)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:368: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 42, expected 27)
+Expected: true
+[  FAILED  ] HeapStress.50x50RandomElements_QuaternaryHeap (280 ms)
+[----------] 1 test from HeapStress (292 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (343 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] HeapStress.50x50RandomElements_QuaternaryHeap
+
+ 1 FAILED TEST
+==2188== 
+==2188== HEAP SUMMARY:
+==2188==     in use at exit: 0 bytes in 0 blocks
+==2188==   total heap usage: 3,179 allocs, 3,179 frees, 706,494 bytes allocated
+==2188== 
+==2188== All heap blocks were freed -- no leaks are possible
+==2188== 
+==2188== For counts of detected and suppressed errors, rerun with: -v
+==2188== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.73 sec
+----------------------------------------------------------
+Test Failed.
+"HeapStress.50x50RandomElements_QuaternaryHeap" end time: Feb 17 23:22 UTC
+"HeapStress.50x50RandomElements_QuaternaryHeap" time elapsed: 00:00:01
+----------------------------------------------------------
+
+24/25 Testing: HeapStress.50x50RandomElements_DodecenaryHeap
+24/25 Test: HeapStress.50x50RandomElements_DodecenaryHeap
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapStress.50x50RandomElements_DodecenaryHeap"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapStress.50x50RandomElements_DodecenaryHeap" start time: Feb 17 23:22 UTC
+Output:
+----------------------------------------------------------
+==2189== Memcheck, a memory error detector
+==2189== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2189== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==2189== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapStress.50x50RandomElements_DodecenaryHeap
+==2189== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapStress.50x50RandomElements_DodecenaryHeap
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapStress
+[ RUN      ] HeapStress.50x50RandomElements_DodecenaryHeap
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 16, expected 27)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 20, expected 24)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 5, expected 11)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 15, expected 16)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 9, expected 16)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 11, expected 17)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 18, expected 20)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 13, expected 15)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 37, expected 41)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 11, expected 30)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 15, expected 39)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 3 elements!  Was 30, expected 38)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 9, expected 36)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 39, expected 45)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 27, expected 32)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 3 elements!  Was 25, expected 41)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 95, expected 114)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 17, expected 22)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 28, expected 42)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 6, expected 29)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 3 elements!  Was 13, expected 34)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 40, expected 63)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 13, expected 14)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 23, expected 49)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 3 elements!  Was 51, expected 79)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 14, expected 22)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 28, expected 48)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 24, expected 49)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 3 elements!  Was 30, expected 45)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 5, expected 20)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 4 elements!  Was 39, expected 64)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 12, expected 17)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 3 elements!  Was 13, expected 20)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 24, expected 28)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 17, expected 49)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 10, expected 23)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 5, expected 6)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 27, expected 40)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 17, expected 59)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 41, expected 18)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 42, expected 37)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 10, expected 17)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 3 elements!  Was 17, expected 20)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 19, expected 39)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 6, expected 11)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 27, expected 40)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 21, expected 35)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 26, expected 35)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 33, expected 35)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:391: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 3 elements!  Was 16, expected 48)
+Expected: true
+[  FAILED  ] HeapStress.50x50RandomElements_DodecenaryHeap (279 ms)
+[----------] 1 test from HeapStress (291 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (342 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] HeapStress.50x50RandomElements_DodecenaryHeap
+
+ 1 FAILED TEST
+==2189== 
+==2189== HEAP SUMMARY:
+==2189==     in use at exit: 0 bytes in 0 blocks
+==2189==   total heap usage: 3,179 allocs, 3,179 frees, 706,606 bytes allocated
+==2189== 
+==2189== All heap blocks were freed -- no leaks are possible
+==2189== 
+==2189== For counts of detected and suppressed errors, rerun with: -v
+==2189== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.75 sec
+----------------------------------------------------------
+Test Failed.
+"HeapStress.50x50RandomElements_DodecenaryHeap" end time: Feb 17 23:22 UTC
+"HeapStress.50x50RandomElements_DodecenaryHeap" time elapsed: 00:00:01
+----------------------------------------------------------
+
+25/25 Testing: HeapStress.2x2000RandomElements_Binary
+25/25 Test: HeapStress.2x2000RandomElements_Binary
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "--error-exitcode=113" "/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests" "--gtest_filter=HeapStress.2x2000RandomElements_Binary"
+Directory: /home/codio/workspace/hw3/hw3_tests/heap_tests
+"HeapStress.2x2000RandomElements_Binary" start time: Feb 17 23:22 UTC
+Output:
+----------------------------------------------------------
+==2190== Memcheck, a memory error detector
+==2190== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2190== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==2190== Command: /home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests --gtest_filter=HeapStress.2x2000RandomElements_Binary
+==2190== 
+Running main() from /home/codio/googletest/googletest/src/gtest_main.cc
+Note: Google Test filter = HeapStress.2x2000RandomElements_Binary
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HeapStress
+[ RUN      ] HeapStress.2x2000RandomElements_Binary
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:414: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 1, expected 8)
+Expected: true
+/home/codio/workspace/hw3/hw3_tests/heap_tests/heap_tests.cpp:414: Failure
+Value of: checkHeapContents(heap, data)
+  Actual: false (Incorrect element value after removing 2 elements!  Was 20, expected 27)
+Expected: true
+[  FAILED  ] HeapStress.2x2000RandomElements_Binary (221 ms)
+[----------] 1 test from HeapStress (232 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (284 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] HeapStress.2x2000RandomElements_Binary
+
+ 1 FAILED TEST
+==2190== 
+==2190== HEAP SUMMARY:
+==2190==     in use at exit: 0 bytes in 0 blocks
+==2190==   total heap usage: 592 allocs, 592 frees, 221,795 bytes allocated
+==2190== 
+==2190== All heap blocks were freed -- no leaks are possible
+==2190== 
+==2190== For counts of detected and suppressed errors, rerun with: -v
+==2190== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.66 sec
+----------------------------------------------------------
+Test Failed.
+"HeapStress.2x2000RandomElements_Binary" end time: Feb 17 23:22 UTC
+"HeapStress.2x2000RandomElements_Binary" time elapsed: 00:00:01
+----------------------------------------------------------
+
+End testing: Feb 17 23:22 UTC
