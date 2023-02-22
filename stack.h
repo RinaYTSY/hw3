@@ -45,7 +45,7 @@ void Stack<T>::push(const T& item){
 
 template <typename T>
 void Stack<T>::pop(){
-    if(std::vector<T>::empty()){
+    if(this->empty()){
         std::underflow_error("Empty stack");
     }
     std::vector<T>::pop_back();
@@ -54,7 +54,7 @@ void Stack<T>::pop(){
 
 template <typename T>
 const T& Stack<T>::top() const{
-    if(std::vector<T>::empty()){
+    if(this->empty()){
         std::underflow_error("Empty stack");
     }
     return std::vector<T>::back();
